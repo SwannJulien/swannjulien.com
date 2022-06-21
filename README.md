@@ -1,7 +1,7 @@
 # swannjulien.com
 Very first website created in self-learning by following tutorials online.
 
-What I learned?
+# What I learned?
 
 1. Basics of Visual Studio Code, HTML, CSS, Bootstrap 4.0 and BEM methodology
 2. Create a nice Photoshop template and implement it with HTML and CSS
@@ -10,7 +10,7 @@ What I learned?
 5. Change an image definition accordingly to the screen size of the user
 6. Basics of accessibility
 
-And also:
+# And also:
 
 1. Use FTP protocol with FileZila to send the webpages in a server
 2. Configure a server and the email of the server
