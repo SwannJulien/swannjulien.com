@@ -10,6 +10,12 @@ What I learned?
 5. Change an image definition accordingly to the screen size of the user
 6. Basics of accessibility
 
+And also:
+
+1. Use FTP protocol with FileZila to send the webpages in a server
+2. Configure a server and the email of the server
+3. Use Google Search Console to analyse website performances  
+
 To know more about BEM: http://getbem.com/ and https://en.bem.info/methodology/
 
 Bootstrap: https://getbootstrap.com/
