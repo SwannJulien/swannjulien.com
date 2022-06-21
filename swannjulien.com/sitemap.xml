@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.swannjulien.com/</loc>
+  <lastmod>2022-06-19T20:24:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/fr/index.html</loc>
+  <lastmod>2022-06-19T20:30:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/es/index.html</loc>
+  <lastmod>2022-06-19T20:29:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/content/Swann%20Julien%20Resume.pdf</loc>
+  <lastmod>2022-06-19T20:46:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/credit.html</loc>
+  <lastmod>2022-06-19T20:24:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/index.html</loc>
+  <lastmod>2022-06-19T20:24:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.swannjulien.com/content/CV%20Swann%20Julien.pdf</loc>
+  <lastmod>2022-06-19T20:25:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
