@@ -3,12 +3,13 @@ Very first website created in self-learning by following tutorials online.
 
 # What I learned?
 
-1. Basics of Visual Studio Code, HTML, CSS, Bootstrap 4.0 and BEM methodology
+1. Basics of Visual Studio Code, HTML, CSS, Bootstrap and BEM methodology
 2. Create a nice Photoshop template and implement it with HTML and CSS
 3. Create a responsive website with different layouts for every screen size
 4. Work with different fonts to make them the more readable possible 
 5. Change an image definition accordingly to the screen size of the user
-6. Basics of accessibility
+6. Fundamentals of accessibility, SEO and semantic HTML
+7. Use Lighthouse 
 
 # And also:
 
