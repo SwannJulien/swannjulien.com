@@ -1,18 +1,15 @@
-/* FONT IMPORTATION FOR THE HEADER
-    1. Molle: cursive font for my name 
-2. Kalam: font for "lifelong learner"
-*/
-
-/***************** AMELIORATIONS ******************************* 
-
-1.Tiret sous les menus
-2. aligner Swann Life song learner aves options du menu
-3. Augmenter police about text 
-4. Font-weight des fonts
-5. Hoover button ne marche pas sur petits écrans
-6. p class="form-message" dans la section contact????
-
-*****************************************************************/
+/****************************************
+          1. Header 43-131
+          2. Home 132-196
+          3. About section 197-246
+          4. Competences section 247-281
+          5. Contact 283-344
+          6. Footer 344-404
+          7. MEDIA 576px 405-426
+          8. MEDIA 768px 405-526
+          9. MEDIA 992px 527-585
+          10. MEDIA 1200px 586-600
+*****************************************/
 
 @font-face {
   font-family: "Molle";
@@ -27,7 +24,6 @@
 a,
 a:hover {
   color: inherit;
-  /* font-size: inherit; */
   text-decoration: none;
 }
 
@@ -42,13 +38,6 @@ a:hover {
 a {
   text-decoration: none;
 }
-
-/* h3, h4 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    color: #333333;
-} */
 
 /****************************************
 
@@ -71,6 +60,8 @@ a {
   position: fixed;
   width: 100%;
   z-index: 999;
+  padding: 1% 4.5%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .custom-toggler.navbar-toggler {
@@ -79,11 +70,6 @@ a {
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar {
-  padding: 1% 4.5%;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-item {
@@ -134,7 +120,7 @@ a {
   -ms-display: flex;
   display: flex;
   height: 100vh;
-  background-image: url(content/IMG_4386_resize.jpg);
+  background-image: url(content/IMG_4386.webp);
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +167,7 @@ a {
 .button {
   display: inline-block;
   padding: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
   color: #fff;
   text-transform: uppercase;
@@ -298,15 +284,6 @@ a {
 
 *****************************************/
 
-/* p {
-    margin-bottom: 2rem;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 1.1rem;
-    letter-spacing: .2px;
-    color: #333333;
-} */
-
 .contact__subtitle {
   margin-bottom: 1rem;
   text-align: center;
@@ -315,14 +292,16 @@ a {
 .contact__input {
   width: 100%;
   padding: 0.5rem;
-  margin-top: 0.7rem;
+  font-size: 0.9rem;
   background-color: #f1f0f0;
   border: 1px solid #bcbcbc;
   border-radius: 10px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.2px;
   outline: none;
+}
+
+.contact__label {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
 }
 
 .contact__textarea {
@@ -426,6 +405,7 @@ a {
             MEDIA 576px AND MORE
 
 *****************************************/
+
 @media only screen and (min-width: 576px) {
   .home {
     width: 500px;
@@ -433,6 +413,9 @@ a {
   }
   .about__image {
     float: left;
+  }
+  .navbar {
+    height: auto;
   }
 }
 
@@ -444,7 +427,7 @@ a {
 
 @media only screen and (min-width: 768px) {
   .header {
-    background-image: url(content/IMG_4386.JPG);
+    background-image: url(content/IMG_4386.webp);
   }
 
   .anchor {
@@ -516,17 +499,19 @@ a {
   }
 
   .contact__frame {
-    height: 290px;
-    margin-top: 1.3rem;
     margin-bottom: 0.3rem;
   }
 
-  .contact__input {
-    margin-top: 1rem;
+  .contact__label {
+    margin-top: 0.5rem;
   }
 
   .contact__subtitle {
     margin-bottom: 1.5rem;
+  }
+
+  .contact-button {
+    margin-top: 1rem;
   }
 
   .copyright {
@@ -548,7 +533,7 @@ a {
     visibility: hidden;
   }
 
-  .text {
+  .home__subtitle {
     font-size: 1.5rem;
   }
 
@@ -570,6 +555,10 @@ a {
 
   .about--initcap {
     font-size: 100px;
+  }
+
+  .contact__subtitle {
+    font-size: 1.5rem;
   }
 
   .contact__adress {
