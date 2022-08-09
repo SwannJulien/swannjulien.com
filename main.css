@@ -119,7 +119,7 @@ a {
   -moz-display: flex;
   -ms-display: flex;
   display: flex;
-  height: 100vh;
+  height: min(60em, 100vh);
   background-image: url(content/IMG_4386.webp);
   background-position: left center;
   background-size: cover;
