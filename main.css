@@ -61,11 +61,11 @@ a {
   width: 100%;
   z-index: 999;
   padding: 1% 4.5%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.custom-toggler.navbar-toggler {
-  border-color: transparent;
+.navbar-dark .navbar-toggler {
+  color: transparent;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -144,7 +144,7 @@ a {
 
 .home-container {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   width: 300px;
 }
@@ -164,9 +164,14 @@ a {
   margin-bottom: 50px;
 }
 
+.button_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .button {
-  display: inline-block;
-  padding: 1rem;
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
   color: #fff;
@@ -174,10 +179,10 @@ a {
   text-decoration: none;
   background-color: #59a0ae;
   border-radius: 10px;
-  -webkit-transition: background-color 0.5s ease-in;
-  -moz-transition: background-color 0.5s ease-in;
-  -o-transition: background-color 0.5s ease-in;
-  transition: background-color 0.5s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
 }
 
 .button:hover {
@@ -188,8 +193,7 @@ a {
 
 .home__button {
   width: 100%;
-  height: 50px;
-  max-width: 202px;
+  padding: 1rem;
   margin: 0.6rem;
 }
 
@@ -334,7 +338,7 @@ a {
 
 .contact__frame {
   width: 100%;
-  height: 300px;
+  height: 25.3em;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -364,29 +368,16 @@ a {
   margin: 0;
 }
 
-.mailto {
-  font-size: 14px;
-  color: #f8f4f4;
-  -webkit-transition: color 0.5s ease-out;
-  -moz-transition: color 0.5s ease-out;
-  -o-transition: color 0.5s ease-out;
-  transition: color 0.5s ease-out;
-}
-
-.mailto:hover {
-  color: #59a0ae;
-}
-
 .reseaux_sociaux {
   margin: 15px 0;
 }
 
 .footer__link--active {
   color: #59a0ae;
-  -webkit-transition: color 0.5s ease-out;
-  -moz-transition: color 0.5s ease-out;
-  -o-transition: color 0.5s ease-out;
-  transition: color 0.5s ease-out;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
 }
 
 .footer__link--active:hover {
@@ -469,6 +460,10 @@ a {
     -moz-transition: width.3s;
     -o-transition: width.3s;
     transition: width.3s;
+  }
+
+  .button_wrapper {
+    flex-direction: row;
   }
 
   .about__image {
